@@ -1,0 +1,73 @@
+body {
+  text-align: center;
+  background-color: lightgray;
+}
+
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  size: 48px;
+  font-weight: 300;
+  color: black;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+a {
+  color: black;
+
+}
+
+a:hover {
+  color: white;
+  transition: 0.6s;
+}
+
+div {
+  display: block;
+}
+
+.card {
+  background-color: white;
+  text-align: center;
+  box-shadow: 3px 3px rgb(rgb(203, 86, 86), rgb(105, 178, 105), rgb(96, 96, 170));
+  width: 600px;
+  border-radius: 5px;
+  padding: 15px;
+  border: 0,5px solid black;
+  margin: 15px auto
+}
+
+li {
+  display: inline;
+  padding: 0px 15px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card {
+    width: 300px;
+  }
+}
